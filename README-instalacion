@@ -1,0 +1,20 @@
+Modulo certificados, pasos de la instalacion:
+
+
+1.descargar desde github a la carpeta mod de moodle.
+2.renombrar la carpeta certificatesModified(en la cual se descargo el modulo) a certificate.
+3.acceder a la seccion de administracion de moodle donde debe aparecer el modulo certificate listo para instalarse(hacer click en actualizar la base de datos ahora).
+4.acceder al curso sobre el que se desea emitir un certificado de asistencia.
+5.agregar un recurso de tipo certificado a ese curso.
+6.configurar el mismo modificando:
+				
+				seleccionar logo y marca de agua acorde(en ambos casos CALP)
+				seleccionar las opciones de diseño apropiadas.
+7. Es necesario editar el texto del modulo desde el mismo moodle ya que usa traducciones automaticas en vez de los archivos de lenguaje.Para hacer esto es necesario ir a la seccion
+Adminitracion de sitio->Idioma-> Personalizacion del idioma
+ seleccionar el idioma español internacional(o el que utilize el modulo) y mostrar las cadenas para el componenete certificate.php
+Modificando para que quede 
+certify = hace constar que
+statement = se ha inscripto al curso
+title= Certificado de inscripción				
+	
